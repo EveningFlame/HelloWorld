@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.i(TAG, "onCreate mehtod");
+        Log.i(TAG, "onCreate method");
         sendAgainButton = (Button)
                 findViewById(R.id.btn_send_again);
         sendAgainButton.setOnClickListener(new View.OnClickListener() {
