@@ -13,12 +13,21 @@ public class MainActivity extends AppCompatActivity {
 
     private Button sendAgainButton;
     public static final String MESSAGE = "message";
+
+
+
+
     public static final String TAG = "Menaka";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_main);
+
+
+
 
         Log.i(TAG, "onCreate method");
         sendAgainButton = (Button)
